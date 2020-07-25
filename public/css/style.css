@@ -1,0 +1,313 @@
+.row1{
+    background: #59a3fc;
+}
+
+.logo a{
+    font-family: 'Open Sans';
+    text-align: left;
+    padding-right: 300px;
+    padding-left: 90px;
+}
+
+#collapsibleNavId{
+   
+    padding-bottom: 15px;
+    font-size: 1.35em;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    
+   
+}
+.home{
+    border-bottom: 5px solid #59a3fc;
+}
+.nav-link:hover{
+    border-bottom: 5px solid #59a3fc;
+}
+/*
+#collapsibleNavId::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    height: 5px;
+    width: 60px;
+    background: #59a3fc;
+    left: 3%;
+    top: 80%;
+}
+*/
+.nav-linkk{
+    margin: 10px;
+    font-size: 1.35em;
+    font-weight: 700;
+    padding: 10px 15px;
+    padding-bottom: 15px;
+}
+.dropdown{
+   
+    display: inline-block;
+    
+ }
+ .dropdown-menu{
+    display: none;
+    
+    background-color: #ffffff;
+    list-style: none;
+    bottom: 50px;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+ }
+ .dropdown-menu a{
+    color: black;
+    padding: 5px 5px;
+    
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    display: block;
+    
+ }
+ 
+ .dropdown:hover .dropdown-menu{
+    display: block;
+ }
+ 
+
+
+.banner{
+    background: url(../images/1191892439.jpg) no-repeat;
+    padding: 300px 0;
+   color: aliceblue;
+   text-align: center;
+   font-family: 'Open Sans';
+   
+}
+.inspiron{
+    font-weight: bold;
+    font-size: 48px;
+
+}
+.banner strong{
+     color: #59a3fc;
+}
+.banner p{
+    font-size: large;
+    color: rgba(255,255,255,0.5);
+}
+.click{
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding: 15px;
+    border-radius: 4px;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+.choes{
+    
+    border-bottom: 0.5px solid #ddd;
+}
+.choes h2{
+    padding: 20px 0 10px;
+}
+.btn-Purchase{
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding: 15px;
+    border-radius: 4px;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+.btn-Purchase:hover{
+    overflow: hidden;
+    background-color: #59a3fc !important;
+    padding: 15px;
+    border-radius: 4px;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+
+.business h2{
+    font-weight: bold;
+    font-family: 'Open Sans';
+    color: #444444;
+    font-size: 60px;
+    padding-top: 90px;
+}
+.business p{
+    color: rgb(136, 136, 136);
+    font-size: large;
+    text-align: left;
+}
+.business .get{
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding: 15px;
+    border-radius: 4px;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+.price{
+    text-decoration: line-through;
+    color: #888;
+}
+.price:hover{
+   color: grey;
+    text-decoration: line-through;
+}
+.conversion{
+    border-bottom: 0.5px solid #ddd;
+}
+.conversion h2{
+    font-weight: bold;
+    font-family: 'Open Sans';
+    color: #444444;
+    font-size: 60px;
+    padding-top: 90px;
+}
+.conversion p{
+    color: rgb(136, 136, 136);
+    font-size: large;
+    text-align: left;
+}
+.project h2{
+    padding: 25px 0;
+}
+.ab{
+    padding: 50px 0 90px;
+    text-align: center;
+    border-bottom: 0.5px solid #ddd;
+}
+.product h2{
+    padding: 30px 0;
+}
+.hang{
+    padding: 50px 70px;
+    border-bottom: 0.5px solid #ddd;
+}
+.footer1{
+    padding-top: 40px;
+}
+.footer1 p{
+    color: rgb(136, 136, 136);
+    padding-top: 5px;
+}
+.footer1 .tieude{
+    padding-bottom: 5px;
+    font-size: 1.35em;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    display: block;
+}
+.footer1 .tieude::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    height: 5px;
+    width: 60px;
+    background: #59a3fc;
+    left: 0;
+    top: 100%;
+}
+
+.btn-submit{
+    background-color: cornflowerblue;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+.footer1 i{
+    margin: 10px ;
+}
+@media (max-width: 1024px){
+    body{
+        font-size: 14px;
+    }
+    
+    
+    .navbar-toggler
+    {
+        padding-left: 50px;
+        width: 24px;
+        height: 21px;
+       
+        
+    }
+   
+    #collapsibleNavId{
+        padding-bottom: 97px;
+        width: 100%;
+
+    }
+   
+    .banner h2{
+        font-family: 'Open Sans';
+        font-weight: 300 !important;
+        font-size: 40px;
+        padding-bottom: 50px;
+        line-height: 50px;
+        text-align: center;
+        line-height: inherit !important;
+    }
+    .catery {
+        width: auto;
+        text-align: center;
+        max-width: 100%;
+        padding-left: 40%;
+        padding-top: 5%;
+    }
+    .name_product{
+        text-align: center;
+    }
+    .name_product1{
+        text-align: center;
+       
+    }
+    .info{
+        text-align: center;
+    }
+    .conversion {
+        padding-bottom: 50px;
+    }
+    .btn-Purchase{
+        bottom: 50px;
+    }
+    .choes .card-img-top{
+        width: 40%;
+    }
+    .container{
+        padding-top: 0;
+    }
+    .hang img{
+        width: 130%;
+        padding: 0;
+        text-align: center;
+    }
+    
+
+    
+    
+}
+
+
